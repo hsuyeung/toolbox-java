@@ -1,0 +1,8 @@
+# 自定义 HttpClient 的 RequestConfig 配置
+http:
+  client:
+    request:
+      config:
+        connectionRequestTimeout: 6000
+        connectTimeout: 6000
+        socketTimeout: 6000
